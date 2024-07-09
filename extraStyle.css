@@ -1,0 +1,37 @@
+:root{
+   --Orange-clr: #FD7014;
+   --Back-clr: #f1f1f1;
+   --SemBlue-drk: #222831;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+   width: 12px;
+   border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+   background: var(--Back-clr);
+}
+
+::-webkit-scrollbar-button {
+   display: none; /* Hide the scrollbar buttons (arrows) */
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: var(--SemBlue-drk);
+   border-radius: 10px;
+   border: 3px solid var(--Back-clr);
+}
+
+/* For Firefox */
+html {
+   scrollbar-width: thin;
+   scrollbar-color: var(--SemBlue-drk) var(--Back-clr);
+}
+
+/* Optional: Ensure the scrollbar styles are applied universally */
+* {
+   scrollbar-width: thin;
+   scrollbar-color: var(--SemBlue-drk) var(--Back-clr);
+}

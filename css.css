@@ -12,6 +12,10 @@
    font-family: "Poppins", sans-serif;
    color: var(--SemBlue-drk);
 }
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
 #navbar{
    width: 100%;
    padding: 10px 20px;

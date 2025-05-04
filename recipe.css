@@ -118,6 +118,9 @@ a{
    justify-content: space-between;
    opacity: 0;
 }
+
+
+/* Each Box Styles */
 .recipe_box:nth-child(1){
    animation: showToLeft 400ms linear forwards;
    animation-delay: 0ms;

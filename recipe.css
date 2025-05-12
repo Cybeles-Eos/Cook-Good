@@ -360,6 +360,7 @@ footer{
       text-align: center;
    }
 }
+/*Mobile S*/
 @media screen and (max-width: 500px){
    #foo_logo{
       margin-left: .5rem;
